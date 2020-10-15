@@ -155,12 +155,12 @@ if [[ -n "${CPU_ARCHITECTURE}" ]] ; then
     # Execute build script.
     echo -e "\e[94m  Executing the FlightAware PiAware client build script...\e[97m"
     echo ""
-    ./sensible-build.sh jessie
+    ./sensible-build.sh disco
     echo ""
 
     # Change to build script directory.
     echo -e "\e[94m  Entering the FlightAware PiAware client build directory...\e[97m"
-    cd ${RECEIVER_BUILD_DIRECTORY}/piaware_builder/package-jessie 2>&1
+    cd ${RECEIVER_BUILD_DIRECTORY}/piaware_builder/package-disco 2>&1
 
     # Build binary package.
     echo -e "\e[94m  Building the FlightAware PiAware client package...\e[97m"
