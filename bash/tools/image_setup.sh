@@ -137,6 +137,8 @@ case ${DUMP1090OPTION} in
         CheckPackage itcl3
         CheckPackage net-tools
         CheckPackage devscripts
+        CheckPackage libhackrf-dev
+        CheckPackage liblimesuite-dev
 
         # bladeRF
         echo ""
